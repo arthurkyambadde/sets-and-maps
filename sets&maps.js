@@ -147,3 +147,13 @@ for (const [key, value] of question) {
 
 const questionArray = [...question];
 console.log(questionArray);
+
+console.log(question.entries());
+console.log(question.keys());
+console.log(question.values());
+
+//ARRAY METHODS
+
+console.log(...question.entries());
+console.log(...question.keys());
+console.log(...question.values());

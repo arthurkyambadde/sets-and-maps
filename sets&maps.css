@@ -10,3 +10,8 @@ h1 {
   font-style: normal;
   text-transform: uppercase;
 }
+
+.progress--bar {
+  value: 50%,
+  max: 100%;
+}
